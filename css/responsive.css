@@ -1,5 +1,29 @@
-@media (max-width: 700) {
+@media (max-width: 1230px) {
     .section01 {
        flex-direction: column;
+       align-items: center;
+    }
+    .section-h3  {
+        font-size: 40px;
+        margin: auto;
+    }
+    .left-block {
+        padding: 90px 0 0;
+    }
+    .section-title p {
+        width: auto;
+    }
 }
-
+@media (max-width: 540px) {
+    .projects {
+        width: auto;
+        text-align: center;
+        font-size: 10px;
+    }
+    .section-h3 {
+        font-size: 40px;
+    }
+    .left-block {
+        padding: 90px 0 0;
+    }
+}
